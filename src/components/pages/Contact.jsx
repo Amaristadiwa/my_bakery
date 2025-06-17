@@ -3,10 +3,10 @@ import '../styles/App.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: 'Tadiwa Mangate',
-    email: 'tadiwamangate9@gmail.com',
-    phone: '077 470 0857',
-    message: 'We Offer The Best services'
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
   });
 
   const handleChange = (e) => {
@@ -23,10 +23,10 @@ const Contact = () => {
     console.log('Form submitted:', formData);
     alert('Thank you for your message! We will get back to you soon.');
     setFormData({
-     name: 'Tadiwa Mangate',
-    email: 'tadiwamangate9@gmail.com',
-    phone: '077 470 0857',
-    message: 'We Offer The Best services'
+     name: '',
+    email: '',
+    phone: '',
+    message: ''
     });
   };
 
@@ -107,6 +107,7 @@ const Contact = () => {
         <div className="map-container">
           {/* This would be replaced with an actual map embed */}
           <div className="map-placeholder">
+            <img src="src/images/Sultanas-Bakery-Café-on-Google-Maps-scaled.webp" alt="" />
             <p>Map would be displayed here</p>
           </div>
         </div>

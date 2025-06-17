@@ -16,17 +16,17 @@ const Home = () => {
         <h2>Our Featured Products</h2>
         <div className="product-grid">
           <div className="product-card">
-            <img url="https://i.pinimg.com/736x/21/fe/7a/21fe7a38d278bdff7f0a7c4be6729199.jpg" alt="Custom Cakes" />
+            <img src="src/images/wedding cake.jpg" alt="Custom Cakes" />
             <h3>Custom Cakes</h3>
             <p>Beautiful cakes for any occasion</p>
           </div>
           <div className="product-card">
-            <img url="https://i.pinimg.com/736x/1a/b2/c3/1ab2c32b029f8e6845a880bf9a27597a.jpg" alt="Cupcakes" />
+            <img src="src/images/cupcake.jpg" alt="Cupcakes" />
             <h3>Cupcakes</h3>
             <p>Delicious cupcakes in various flavors</p>
           </div>
           <div className="product-card">
-            <img url="https://i.pinimg.com/736x/36/25/8b/36258bdc20ace08cb9ab5328d811f8c7.jpg" alt="Artisan Bread" />
+            <img src="src\images\bread.jpg" alt="Artisan Bread" />
             <h3>Artisan Bread</h3>
             <p>Freshly baked bread daily</p>
           </div>
