@@ -4,12 +4,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
+  width: 100%;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 /* Home Page Styles */
@@ -18,7 +20,9 @@
 }
 
 .hero {
-  background: url('https://i.pinimg.com/736x/96/a8/1d/96a81ddae2a089ca4ecc463f157aa98d.jpg') no-repeat center center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                 url('https://i.pinimg.com/736x/96/a8/1d/96a81ddae2a089ca4ecc463f157aa98d.jpg') no-repeat center center/cover;
+  
   height: 60vh;
   display: flex;
   align-items: center;
@@ -38,19 +42,27 @@
   margin-bottom: 30px;
 }
 
-.cta-button {
-  padding: 12px 30px;
-  background-color: #f8b400;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.button {
+    padding: 6px 14px;
+    background-color: #FFD600;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: auto;
+    min-width: 40px;
+    min-height: 28px;
+    transition: background 0.2s ease;
 }
 
-.cta-button:hover {
-  background-color: #e0a800;
+.btn:active {
+    background-color: #87cefa; /* light blue */
+}
+
+
+.btn:hover {
+  background-color: #00e031;
 }
 
 .featured-products {

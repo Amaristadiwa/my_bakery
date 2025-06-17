@@ -8,7 +8,7 @@ const Home = () => {
         <div className="hero-content">
           <h1>Welcome to Sweet Delights Bakery</h1>
           <p>Delicious treats made with love and the finest ingredients</p>
-          <button className="cta-button">Explore Our Products</button>
+          <a href='#' className="bg-yellow-500 px-5 py-3 rounded text-[#333] text-[25px] button">Explore Our Products</a>
         </div>
       </section>
 

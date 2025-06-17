@@ -12,7 +12,8 @@
 .contact-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
               url('https://thumbs.dreamstime.com/b/business-woman-working-laptop-computer-office-63543303.jpg') no-repeat center center/cover;
-  height: 40vh;
+  height: 60vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

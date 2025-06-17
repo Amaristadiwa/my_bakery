@@ -10,11 +10,14 @@ import './components/styles/App.css';
 import './components/styles/About.css';
 import './components/styles/Product.css';
 import './components/styles/Contact.css';
+import './components/styles/Navbar.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="app w-[100%]">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
